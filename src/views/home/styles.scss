@@ -1,0 +1,50 @@
+.home {
+  &-container {
+    margin-top: 10%;
+    display: grid;
+    justify-content: center;
+  }
+  &-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    &-spotify {
+      &-text {
+        display: flex;
+        text-align: center;
+        gap: 1rem;
+        background-color: green;
+        border-radius: 20px;
+        padding: 1rem;
+        width: 30%;
+        &-icon {
+          align-self: center;
+        }
+      }
+
+      :hover {
+        background-color: #1db954;
+        cursor: pointer;
+      }
+    }
+    &-youtube {
+        &-text {
+            display: flex;
+            text-align: center;
+            gap: 1rem;
+            background-color: rgb(128, 0, 0);
+            border-radius: 20px;
+            padding: 1rem;
+            width: 30%;
+            &-icon {
+            align-self: center;
+            }
+        }
+      :hover {
+        // background-color: rgba(252, 38, 38, 0.267);
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.migrator {
+    margin: 50px;
+}
+
+.playlists {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    &-container {
+        margin-top: 2rem;
+    }
+}
+
+.search {
+    display: flex;
+    gap: 1rem;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-tracks{
+    height: 600px;
+    overflow-y: scroll;
+    // margin-top: 2rem;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.create-yt-playlist {
+    // background-color: rgba(240, 248, 255, 0.226);
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    // padding: 1rem;
+    margin-left: 3rem;
+}
+
+.homologations {
+    display: flex;
+    gap: 1rem;
+}
+
+.track-homologate {
+    width: 100%;
+}
+
+.arrow-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-playlist-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.action-zone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 10px 20px 10px 0px;
+}
+
+.modal-container {
+    height: 100%;
+    background-color: rgba(203, 72, 255, 0.541);
+}

@@ -1,0 +1,34 @@
+.track {
+  margin: 0.5rem 0px;
+  padding: 5px 30px 5px 0px;
+  min-width: 500px;
+  max-width: 500px;
+  :hover {
+    background-color: rgb(69, 70, 70);
+  }
+}
+
+.miu-card {
+  display: flex;
+  // width: 250px;
+  height: 140px;
+  // width="480"
+ // height="270"
+}
+
+.track-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // text-overflow: ;
+  white-space: nowrap;
+  width: 80%;
+}
+
+// 150x84 (16:9)
+// 200x112 (16:9)
+// 250x140 (16:9)
+// 300x168 (16:9)
+// 350x196 (16:9)
+// 400x224 (16:9)
+// 450x252 (16:9)
+// 480x270 (16:9)
